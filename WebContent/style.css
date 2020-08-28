@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+input, h1, a, form { margin: 0; padding: 0; }
+
+a { text-decoration: none; color: cornflowerblue; 
+    font-size: 2.2em; font-weight: bold; }
+    
+#container { width: 600px; height: 500px;
+             		text-align: center; margin: 200px auto; 
+             		color: #407294;
+             		background-color: #afeeee;
+             		border-radius: 40px;}
+             
+#tit { margin: 30px; font-size: 3em; }
+
+#content { width: 500px; height: 50vh;
+            margin: 30px 60px; }
+            
+#content form { margin: 100px; }
+
+form div { margin: 15px auto; }
+
+div input { width: 200px; height: 30px;
+            	  border-radius: 4px;
+            	  border: none; }
+.msg_err { width: 300px; color: #f6546a; }
